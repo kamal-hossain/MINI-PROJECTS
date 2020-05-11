@@ -1,0 +1,27 @@
+{
+  "name": "form-validator-nodejs",
+  "version": "1.0.0",
+  "description": "Simple server side form validation. Check requird, length, email and password match",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamal-hossain/form-validator-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamal-hossain/form-validator-nodejs/issues"
+  },
+  "homepage": "https://github.com/kamal-hossain/form-validator-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.2"
+  }
+}
