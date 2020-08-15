@@ -1,0 +1,20 @@
+.navbar-nav a {
+  color: #000;
+}
+.navbar-nav .btn-success {
+  border-radius: 0;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar .icon {
+  font-size: 1.2rem;
+}
+#navbarSupportedContent > ul > li.nav-item.active > a {
+  text-decoration: underline;
+}
+.navbar-nav a:hover {
+  text-decoration: underline;
+}
+.input-group-text {
+  background-color: #fff;
+}

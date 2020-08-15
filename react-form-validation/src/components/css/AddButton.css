@@ -1,0 +1,11 @@
+.btnGroups {
+  width: 100%;
+  padding-top: 1.2rem;
+}
+.btnGroups button {
+  width: 100%;
+  text-align: left;
+}
+.btnGroups button:hover {
+  background: #ceebd5;
+}

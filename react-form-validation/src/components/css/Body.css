@@ -1,0 +1,86 @@
+/* Reset Select */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  /* border: 1px solid #333; */
+  background: #ffffff;
+  background-image: none;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+/* Custom Select */
+.select {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: #ffffff;
+  overflow: hidden;
+  border-radius: 0.25em;
+  border: 1px solid #ced4da;
+}
+select {
+  flex: 1;
+  padding: 0 0.5em;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #ffffff;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: 0.25s all ease;
+  -o-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+  color: #ced4da;
+}
+/* Transition */
+.select:hover::after {
+  color: #218838;
+}
+
+/* question mark tooltip for input fields */
+.form-control {
+  border-right: 0;
+}
+.btn-outline-secondary {
+  border: 1px solid #ced4da;
+  border-left: 0;
+}
+
+/* validation error URL */
+.liveValidateMessage {
+  transition: all 0.5s ease-out;
+  /* top: -6px;
+  position: absolute; */
+  z-index: 1;
+  opacity: 0;
+  width: 40%;
+  padding-top: 6px;
+  padding-bottom: 16px;
+  transform: translateY(100%);
+}
+
+.liveValidateMessage--visible {
+  opacity: 1;
+  margin-bottom: 0;
+  transform: translateY(0);
+}
+
+.hide {
+  display: none;
+}
